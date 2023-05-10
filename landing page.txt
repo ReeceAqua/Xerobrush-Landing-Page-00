@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xerobrush Landing Page</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #00bfff;
+    }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    h1, h2 {
+        color: #545454;
+    }
+    h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #545454;
+        line-height: 1.5;
+    }
+    .logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .cta {
+        margin: 20px 0;
+        text-align: center;
+    }
+    .cta input[type="email"] {
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+    .cta button {
+        display: inline-block;
+        background-color: #00bfff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .objections {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+    .objection {
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .objection h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .objection p {
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="your-logo-image-source" alt="Xerobrush logo">
+    </div>
+    <h1>Unveiling the Xero-effort Toothbrushing Solution: Xerobrush!</h1>
+    <h2>Brush your teeth with ease, comfort, and dentist-approved confidence!</h2>
+    <p>Struggling with traditional toothbrushing methods? Do you find it difficult to achieve a thorough clean that your dentist would be proud of? You're not alone.</p>
+    <p>Introducing the Xerobrush, a comforting and easy-to-use mouthpiece toothbrush that provides a perfect clean in just 30 seconds. Say farewell to the challenges of traditional toothbrushing and embrace a more supportive approach to dental care.</p>
+    <p>With Xerobrush, you'll:</p>
+    <ul>
+        <li>Save time with our gentle 30-second dentist-approved brushing system</li>
+        <li>Enjoy a thorough clean every time, regardless of your dexterity or mobility</li>
+        <li>Feel confident and supported with our clinically proven, revolutionary toothbrush design</li>
+<p>Don't let toothbrushing become a burden – let Xerobrush be your trusted ally in dental care.</p>
+    <div class="cta">
+        <p>Transform your toothbrushing experience with Xerobrush – your supportive dental care companion!</p>
+        <input type="email" placeholder="Enter your email">
+        <button>Click here</button>
+    </div>
+    <div class="objections">
+        <div class="objection">
+            <h3>I'm worried it won't fit in my mouth comfortably.</h3>
+            <p>We understand your concerns, and that's why the Xerobrush is designed with a flexible, comfortable material to accommodate various mouth sizes and shapes. We believe you'll find it easy to use and gentle on your mouth.</p>
+        </div>
+        <div class="objection">
+            <h3>I don't know if it will clean as effectively as my manual toothbrush.</h3>
+            <p>Rest assured, the Xerobrush has been clinically proven and dentist-approved to provide a thorough and gentle clean in just 30 seconds. Its innovative design ensures all teeth are cleaned effectively, even those hard-to-reach areas.</p>
+        </div>
+        <div class="objection">
+            <h3>It might be too expensive for me.</h3>
+            <p>We understand that the cost of dental care can be a concern. However, investing in a Xerobrush is an investment in your oral health and overall well-being. The time and effort saved, along with the dentist-approved results, make it a valuable addition to your dental care routine. Plus, consider the potential savings on dental bills in the long run!</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
